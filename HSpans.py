@@ -55,9 +55,9 @@ def main(hdb_path,project_name):
     
 
 if __name__=="__main__":
-    hdb_path=r"C:\HyperSizer Data\Projects\vaeridion 7.3.hdb"
-    bdf_path=r"C:/Users/User/Desktop/vaeridion/HM/updated_model_220619_2249/updated_statics.bdf"
-    op2_path=r"C:/Users/User/Desktop/vaeridion/HM/updated_model_220619_2249/updated_statics.op2"
+    hdb_path=r"..."
+    bdf_path=r"..."
+    op2_path=r"..."
     
     bdf=read_bdf(bdf_path,xref=False)
     file_name=os.path.split(bdf_path)[-1].rstrip(".bdf")
